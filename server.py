@@ -127,7 +127,7 @@ def prepare_api_messages(conversation: list, profile: dict, new_message: str) ->
 
 def call_deepseek_api_stream(prompt: str, conversation: list, profile: dict) -> Iterator[str]:
     api_url = "https://api.deepseek.com/v1/chat/completions"
-    api_key = "sk-d34ee72e9096475cb326ecf2782c7c42"  # 请替换为您的API密钥
+    api_key = "sk-********************************"  # 请替换为您的API密钥
     
     headers = {
         "Authorization": f"Bearer {api_key}",
