@@ -1,0 +1,12 @@
+{
+    "my_profile": {
+        "name": "张三",
+        "age": 35,
+        "profession": "登山爱好者",
+        "interests": ["登山"],
+        "memory": [
+            "曾经登顶华山"
+          
+        ]
+    }
+}
